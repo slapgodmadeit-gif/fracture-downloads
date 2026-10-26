@@ -1,17 +1,20 @@
 # Fracture — Ember Audio
 
-Glitch & texture effect: delay, tape, texture, reverb with freeze, filter, movement, and Smart Randomize.
+**Stuck on a melody? Roll the dice.** Fracture is an idea machine for beatmakers: press Randomize, keep what slaps, roll again. Delay, tape, texture, reverb with freeze and filter, with 45 level-matched presets.
 
-## Download the latest version
+## Free 14-day trial
+
+Everything is unlocked for 14 days. After that, buy a licence at **[emberplugins.com/fracture.html](https://emberplugins.com/fracture.html)** and paste the key into the plugin (click **TRIAL** at the top right).
 
 | Platform | Download | Formats |
 |---|---|---|
-| Windows (64-bit) | [Fracture-Windows.zip](https://github.com/slapgodmadeit-gif/fracture-downloads/releases/latest/download/Fracture-Windows.zip) | VST3, Standalone |
-| macOS (Intel + Apple Silicon) | [Fracture-macOS.zip](https://github.com/slapgodmadeit-gif/fracture-downloads/releases/latest/download/Fracture-macOS.zip) | VST3, AU, Standalone |
+| macOS (Apple Silicon + Intel) | [Fracture-macOS-Installer.pkg](https://github.com/slapgodmadeit-gif/fracture-downloads/releases/latest/download/Fracture-macOS-Installer.pkg) | VST3, AU, Standalone |
+| Windows (64-bit) | Coming soon | VST3, Standalone |
 
-Older versions: [all releases](https://github.com/slapgodmadeit-gif/fracture-downloads/releases).
-Install steps are in `INSTALL.txt` inside each zip.
+## Install (macOS)
 
-### Quick install
-- **Windows:** copy `Fracture.vst3` to `C:\Program Files\Common Files\VST3`, then rescan plugins in your DAW.
-- **macOS:** copy `Fracture.vst3` to `~/Library/Audio/Plug-Ins/VST3` and `Fracture.component` to `~/Library/Audio/Plug-Ins/Components`, then rescan. The build is not notarized yet: see `INSTALL.txt` for the one-time Terminal step.
+1. Open `Fracture-macOS-Installer.pkg`. It puts the VST3, AU and Standalone app in the standard folders.
+2. The installer isn't notarized by Apple yet. If macOS blocks it, open **System Settings → Privacy & Security**, scroll down and click **Open Anyway**.
+3. Rescan plugins in your DAW. FL Studio: *Options → Manage plugins → Find installed plugins*.
+
+Questions: [emberplugins.com](https://emberplugins.com)
