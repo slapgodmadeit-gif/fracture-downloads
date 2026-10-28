@@ -9,12 +9,19 @@ Everything is unlocked for 14 days. After that, buy a licence at **[emberplugins
 | Platform | Download | Formats |
 |---|---|---|
 | macOS (Apple Silicon + Intel) | [Fracture-macOS-Installer.pkg](https://github.com/slapgodmadeit-gif/fracture-downloads/releases/latest/download/Fracture-macOS-Installer.pkg) | VST3, AU, Standalone |
-| Windows (64-bit) | Coming soon | VST3, Standalone |
+| Windows 10/11 (64-bit) | [Fracture-Windows.zip](https://github.com/slapgodmadeit-gif/fracture-downloads/releases/latest/download/Fracture-Windows.zip) | VST3, Standalone |
 
 ## Install (macOS)
 
 1. Open `Fracture-macOS-Installer.pkg`. It puts the VST3, AU and Standalone app in the standard folders.
 2. The installer isn't notarized by Apple yet. If macOS blocks it, open **System Settings → Privacy & Security**, scroll down and click **Open Anyway**.
 3. Rescan plugins in your DAW. FL Studio: *Options → Manage plugins → Find installed plugins*.
+
+## Install (Windows)
+
+1. Unzip `Fracture-Windows.zip`.
+2. Quit your DAW and copy the whole `Fracture.vst3` folder to `C:\Program Files\Common Files\VST3\` (Windows asks for administrator permission).
+3. Rescan plugins. FL Studio: *Options → Manage plugins → Find installed plugins*.
+4. The plugin isn't code-signed yet. If Windows shows "Windows protected your PC" for `Fracture.exe`, click **More info → Run anyway**.
 
 Questions: [emberplugins.com](https://emberplugins.com)
